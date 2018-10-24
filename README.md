@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 ```
-git clone https://gitlab.com/nareshkr22/assignment.git
+git clone https://github.com/nareshkr22/Assignment.git
 ```
 
 ### Next goto directry
