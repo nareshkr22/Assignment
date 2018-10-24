@@ -1,0 +1,17 @@
+In this project, search for web hosting providers and report on three that meet the following criteria:
+
+Support PHP and MySQL
+
+Offer e-commerce capabilities
+
+Provide at least 1 GB of disk space
+
+Use your favorite search engine to find web hosting providers, or visit web host directories such as Hosting Review and HostIndex.com. The web server survey results provided by Netcraft may also be useful. Create a web page that presents your findings.
+
+Web page requirements:
+
+Include a single 7-column table of information that includes the provider name and URL, setup fees, monthly fees, domain name registration costs, amount of disk space, type of e-commerce package, and cost of e-commerce package for each provider.
+
+Use color and graphics appropriately in your web page.
+
+Place your name and an e-mail link at the bottom of the page.
