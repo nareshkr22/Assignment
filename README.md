@@ -15,5 +15,5 @@ git clone https://github.com/nareshkr22/Assignment.git
 ### Next goto directry
 
 ```
-cd assignment
+cd Assignment
 ```

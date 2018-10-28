@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Show letter grades</title>
+	<script>
+ 
+   var Amount= 0
+     while(Amount!=999)
+            {
+
+
+        Amount= parseFloat(prompt("Enter number grades from 0 through 100 Or enter 999 to end entries"));
+	 
+                if(Amount>=88 && Amount<=100)
+                    {
+                        window.alert("Number grade=" +Amount +"\n"+
+ "Letter grade=" +"A");
+                    }
+                else if(Amount>=80 && Amount<=87)
+                    {
+                        window.alert("Number grade=" +Amount +"\n"+
+ "Letter grade=" +"B");
+                    }
+                else if(Amount>=68 && Amount<=79)
+                    {
+                        window.alert("Number grade="  +Amount +"\n"+
+ "Letter grade=" +"C");
+                    }
+                else if(Amount>=60 && Amount<=67)
+                    {
+                        window.alert("Number grade=" +Amount +"\n"+
+ "Letter grade=" +"D");
+                    }
+                else if(Amount<60)
+                    {
+                        window.alert("Number grade="+Amount +"\n"+
+ "Letter grade=" +"F");
+                    }
+                else{
+                    window.prompt(("Enter number grades from 0 through 100 Or enter 999to end entries"));
+                }
+                
+            }
+            
+	</script>
+</head>
+<body>  
+	<main>
+    	<h1>This page is displayed after the JavaScript is executed</h1>
+	</main>
+</body>
+</html>

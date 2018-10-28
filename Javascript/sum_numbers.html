@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">	
+    <title>Sum of Numbers</title>
+    <script>
+        do{
+       do{
+           var Entry=parseFloat(window.prompt("Enter any top number to sum from 1 through 100", 5));
+           if(isNaN(Entry) || Entry<1 || Entry>100)
+                {
+                    window.alert("Enter a number between 1 and 100");
+                } 
+        }
+        while(isNaN(Entry) || Entry<1 || Entry>100);
+        var sum=0;
+        var n=parseFloat(Entry);
+        for(var i=0; i<=n;i++)
+        {
+           sum = sum + i
+            
+        }
+           
+            window.alert("The sum of the number through 1 to 5 is" +sum)
+        var again =window.prompt("Do another sum? (y)");
+        }
+        while(again ='y');
+        
+   
+                
+    </script>
+</head>
+<body>
+    <main>
+        <!-- Will show after JavaScript has run -->
+        <h1>Thanks for using the Sum of Numbers application!</h1>
+    </main>
+</body>
+</html>
